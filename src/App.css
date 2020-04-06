@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  padding: 20px;
+}
+
+.department-button {
+  padding: 20px;
+  border: none;
+  background-color: transparent;
+  border: 2px solid black;
+  margin: 20px;
+  font-size: 32px;
+  font-weight: 700;
+  cursor: pointer;
+}
