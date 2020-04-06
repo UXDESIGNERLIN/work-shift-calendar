@@ -34,7 +34,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://uxdesignerlin.github.io/work-shift-calendar/",
+  "homepage": "https://uxdesignerlin.github.io/work-shift-calendar",
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }

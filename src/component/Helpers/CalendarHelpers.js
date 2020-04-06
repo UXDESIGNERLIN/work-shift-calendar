@@ -8,6 +8,7 @@ function daysInMonth(YYYY, MM) {
 }*/
 
 function getDateSequence(MM, DD, YYYY) {
+  let lastSpringHoliday = 5;
   let dateSequence = 0;
   let MonthsTillNow = MM - 1;
   /* if (YYYY - 2020 > 0) {
@@ -17,11 +18,11 @@ function getDateSequence(MM, DD, YYYY) {
   for (let i = MonthsTillNow; i > 0; i--) {
     dateSequence = dateSequence + daysInMonth(YYYY, i);
   }
-  return dateSequence + DD;
+  return dateSequence + DD - lastSpringHoliday;
 }
 
 function renderShift(MM, DD, YYYY) {
-  let dateSequence = getDateSequence(MM, DD, YYYY);
+  let dateSequence = getDateSequence(MM, DD, YYYY) - 1;
   let round = 20;
   let shift = dateSequence % round;
   let shiftsArray = [

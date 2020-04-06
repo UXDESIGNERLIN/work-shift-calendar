@@ -22,18 +22,29 @@ class ScheduleCalendar extends Component {
     return shift;
   };
 
-  content = ({ date, view }) =>
+  renderTileContent = ({ date, view }) =>
     view === "month" && <p>{this.renderDate(date)}</p>;
+
+  renderTileClass = ({ date, view }) =>
+    view === "month" && this.renderDate(date) === "休假"
+      ? "holidayCalendarStyle"
+      : "nonHolidayCalendarStyle";
 
   render() {
     return (
       <div className="calendar-container">
         {" "}
-        <Calendar onClickDay={this.renderDate} tileContent={this.content} />
+        <Calendar
+          onClickDay={this.renderDate}
+          tileClassName={this.renderTileClass}
+          tileContent={this.renderTileContent}
+        />
       </div>
     );
   }
 }
+
+/**Function: ({ date, view }) => view === 'month' && date.getDay() === 3 ? 'saturday' : null */
 
 /**({ date, view }) => view === 'month' && date.getDay() === 0 ? <p>It's Sunday!</p> : null */
 export default ScheduleCalendar;

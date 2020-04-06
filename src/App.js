@@ -12,7 +12,8 @@ function App() {
   return (
     <div className="App">
       {" "}
-      <div>
+      <h2>請選則你的股</h2>
+      <div className="buttons-container">
         <button className="department-button" onClick={showDSchedule}>
           A
         </button>
