@@ -5,8 +5,6 @@ import "react-calendar/dist/Calendar.css";
 import "./calendar.css";
 
 class ScheduleCalendar extends Component {
-  //answer = renderDate(Date.now());
-
   renderDate = e => {
     let miliseconds = Date.parse(e);
     let newDate = new Date(miliseconds);
@@ -15,7 +13,8 @@ class ScheduleCalendar extends Component {
     let shift = showShift(
       newDate.getMonth() + 1,
       newDate.getDate(),
-      newDate.getFullYear()
+      newDate.getFullYear(),
+      this.props.department
     );
     //console.log(newDate.getMonth());
 
@@ -35,7 +34,7 @@ class ScheduleCalendar extends Component {
       <div className="calendar-container">
         {" "}
         <Calendar
-          onClickDay={this.renderDate}
+          //onClickDay={this.renderDate}
           tileClassName={this.renderTileClass}
           tileContent={this.renderTileContent}
         />
