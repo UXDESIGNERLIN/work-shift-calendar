@@ -1,4 +1,5 @@
 import { A, B, C, D } from "./shiftsArray";
+import * as moment from "moment";
 
 let departments = {
   A: () => {
@@ -32,28 +33,33 @@ function getDateSequence(MM, DD, YYYY) {
   let lastSpringHoliday = 5;
   let dateSequence = 0;
   let MonthsTillNow = MM - 1;
-  /* if (YYYY - 2020 > 0) {
-    let countingStart = new Date(2020, 0, 6);
-    let current = new Date();
-  }*/
+
   for (let i = MonthsTillNow; i > 0; i--) {
     dateSequence = dateSequence + daysInMonth(YYYY, i);
   }
   return dateSequence + DD - lastSpringHoliday;
 }
 
-function renderShift(MM, DD, YYYY, department) {
+function dateDiff(miliseconds) {
+  let convertMiliToDay = new Date(miliseconds);
+  let start = moment("2020-01-06");
+  let end = moment(convertMiliToDay);
+  return end.diff(start, "days");
+}
+
+function renderShift(miliseconds, department) {
   let shiftsArray = setDepartmentArray(department);
-  console.log("sh", department);
-  let dateSequence = getDateSequence(MM, DD, YYYY) - 1;
+
+  //let dateSequence = getDateSequence(MM, DD, YYYY) - 1;
+  let numberOfDays = dateDiff(miliseconds);
   let round = 20;
 
-  let shift = dateSequence % round;
+  let shift = numberOfDays % round;
 
   return shiftsArray[shift];
 }
 
-export function showShift(MM, DD, YYYY, department) {
-  let shift = renderShift(MM, DD, YYYY, department);
+export function showShift(miliseconds, department) {
+  let shift = renderShift(miliseconds, department);
   return shift;
 }

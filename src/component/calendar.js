@@ -8,15 +8,13 @@ class ScheduleCalendar extends Component {
   renderDate = e => {
     let miliseconds = Date.parse(e);
     let newDate = new Date(miliseconds);
-    if (newDate.getFullYear() !== 2020) return;
-    //newDate = newDate.toString("MMM dd");
+    if (newDate.getFullYear() < 2020) return;
+
     let shift = showShift(
-      newDate.getMonth() + 1,
-      newDate.getDate(),
-      newDate.getFullYear(),
+      miliseconds,
+
       this.props.department
     );
-    //console.log(newDate.getMonth());
 
     return shift;
   };
