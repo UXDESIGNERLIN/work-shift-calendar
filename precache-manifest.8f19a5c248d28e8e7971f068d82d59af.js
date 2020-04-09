@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d3119403064a2244f3547bc2e7957b32",
+    "revision": "3eb1d392507aeef0e207e0c8f000e0d7",
     "url": "/work-shift-calendar/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/work-shift-calendar/static/css/2.8dbe6964.chunk.css"
   },
   {
-    "revision": "084d600e98e48e941d4e",
+    "revision": "e91da5407fedf09e04f4",
     "url": "/work-shift-calendar/static/css/main.000a9766.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/work-shift-calendar/static/js/2.b752f7b5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "084d600e98e48e941d4e",
-    "url": "/work-shift-calendar/static/js/main.824ebae7.chunk.js"
+    "revision": "e91da5407fedf09e04f4",
+    "url": "/work-shift-calendar/static/js/main.c7820292.chunk.js"
   },
   {
     "revision": "08100dbc34533a0b4ac3",
