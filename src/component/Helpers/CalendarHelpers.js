@@ -1,19 +1,22 @@
 import { A, B, C, D } from "./shiftsArray";
 
-function setDepartmentArray(department) {
-  //let shiftsArray;
-  switch (department) {
-    case "A":
-      return A;
-    case "B":
-      return B;
-    case "C":
-      return C;
-    case "D":
-      return D;
-    default:
-      return;
+let departments = {
+  A: () => {
+    return A;
+  },
+  B: () => {
+    return B;
+  },
+  C: () => {
+    return C;
+  },
+  D: () => {
+    return D;
   }
+};
+
+function setDepartmentArray(department) {
+  return departments[department]();
 }
 
 function daysInMonth(YYYY, MM) {
@@ -41,34 +44,11 @@ function getDateSequence(MM, DD, YYYY) {
 
 function renderShift(MM, DD, YYYY, department) {
   let shiftsArray = setDepartmentArray(department);
+  console.log("sh", department);
   let dateSequence = getDateSequence(MM, DD, YYYY) - 1;
   let round = 20;
-  //let departmentShift = { A: 5, B: 10, C: 15, D: 0 };
-  //let shift = (dateSequence % round) + departmentShift[department];
+
   let shift = dateSequence % round;
-  // let shiftsArray = A;
-  /*let shiftsArray = [
-    "中班",
-    "中班",
-    "中班",
-    "中班",
-    "中班",
-    "休假",
-    "早班",
-    "早班",
-    "早班",
-    "早班",
-    "早班",
-    "休假",
-    "休假",
-    "晚班",
-    "晚班",
-    "晚班",
-    "晚班",
-    "晚班",
-    "休假",
-    "休假"
-  ];*/
 
   return shiftsArray[shift];
 }
