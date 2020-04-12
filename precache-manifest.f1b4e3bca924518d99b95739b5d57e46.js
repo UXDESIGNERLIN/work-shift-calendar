@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "01897a4312305623d2b8eea11f0bacf8",
+    "revision": "18b2e5ff86ed9bc8d9294e4534f695eb",
     "url": "/work-shift-calendar/index.html"
   },
   {
