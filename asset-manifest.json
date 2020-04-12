@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/work-shift-calendar/static/css/main.64d1f2fa.chunk.css",
-    "main.js": "/work-shift-calendar/static/js/main.86a327ac.chunk.js",
-    "main.js.map": "/work-shift-calendar/static/js/main.86a327ac.chunk.js.map",
+    "main.js": "/work-shift-calendar/static/js/main.b0054a76.chunk.js",
+    "main.js.map": "/work-shift-calendar/static/js/main.b0054a76.chunk.js.map",
     "runtime-main.js": "/work-shift-calendar/static/js/runtime-main.99150c75.js",
     "runtime-main.js.map": "/work-shift-calendar/static/js/runtime-main.99150c75.js.map",
     "static/css/2.8dbe6964.chunk.css": "/work-shift-calendar/static/css/2.8dbe6964.chunk.css",
-    "static/js/2.e4ef3697.chunk.js": "/work-shift-calendar/static/js/2.e4ef3697.chunk.js",
-    "static/js/2.e4ef3697.chunk.js.map": "/work-shift-calendar/static/js/2.e4ef3697.chunk.js.map",
+    "static/js/2.de5c5f7f.chunk.js": "/work-shift-calendar/static/js/2.de5c5f7f.chunk.js",
+    "static/js/2.de5c5f7f.chunk.js.map": "/work-shift-calendar/static/js/2.de5c5f7f.chunk.js.map",
     "index.html": "/work-shift-calendar/index.html",
-    "precache-manifest.45b9055e9f3445edbe763dd9b1e0ad7b.js": "/work-shift-calendar/precache-manifest.45b9055e9f3445edbe763dd9b1e0ad7b.js",
+    "precache-manifest.f1b4e3bca924518d99b95739b5d57e46.js": "/work-shift-calendar/precache-manifest.f1b4e3bca924518d99b95739b5d57e46.js",
     "service-worker.js": "/work-shift-calendar/service-worker.js",
     "static/css/2.8dbe6964.chunk.css.map": "/work-shift-calendar/static/css/2.8dbe6964.chunk.css.map",
     "static/css/main.64d1f2fa.chunk.css.map": "/work-shift-calendar/static/css/main.64d1f2fa.chunk.css.map",
-    "static/js/2.e4ef3697.chunk.js.LICENSE.txt": "/work-shift-calendar/static/js/2.e4ef3697.chunk.js.LICENSE.txt"
+    "static/js/2.de5c5f7f.chunk.js.LICENSE.txt": "/work-shift-calendar/static/js/2.de5c5f7f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.99150c75.js",
     "static/css/2.8dbe6964.chunk.css",
-    "static/js/2.e4ef3697.chunk.js",
+    "static/js/2.de5c5f7f.chunk.js",
     "static/css/main.64d1f2fa.chunk.css",
-    "static/js/main.86a327ac.chunk.js"
+    "static/js/main.b0054a76.chunk.js"
   ]
 }

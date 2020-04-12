@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6179e9b89fff7cd51f6d9bdee13e7bdc",
+    "revision": "18b2e5ff86ed9bc8d9294e4534f695eb",
     "url": "/work-shift-calendar/index.html"
   },
   {
-    "revision": "c3b092e089f1d8d9f162",
+    "revision": "b27722d33f7849525be8",
     "url": "/work-shift-calendar/static/css/2.8dbe6964.chunk.css"
   },
   {
-    "revision": "895ee9160ffd4c837829",
+    "revision": "ab4c5e700c32e1b0d4d3",
     "url": "/work-shift-calendar/static/css/main.64d1f2fa.chunk.css"
   },
   {
-    "revision": "c3b092e089f1d8d9f162",
-    "url": "/work-shift-calendar/static/js/2.e4ef3697.chunk.js"
+    "revision": "b27722d33f7849525be8",
+    "url": "/work-shift-calendar/static/js/2.de5c5f7f.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/work-shift-calendar/static/js/2.e4ef3697.chunk.js.LICENSE.txt"
+    "url": "/work-shift-calendar/static/js/2.de5c5f7f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "895ee9160ffd4c837829",
-    "url": "/work-shift-calendar/static/js/main.86a327ac.chunk.js"
+    "revision": "ab4c5e700c32e1b0d4d3",
+    "url": "/work-shift-calendar/static/js/main.b0054a76.chunk.js"
   },
   {
     "revision": "08100dbc34533a0b4ac3",
