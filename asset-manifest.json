@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/work-shift-calendar/static/css/main.64d1f2fa.chunk.css",
-    "main.js": "/work-shift-calendar/static/js/main.b32785b1.chunk.js",
-    "main.js.map": "/work-shift-calendar/static/js/main.b32785b1.chunk.js.map",
+    "main.js": "/work-shift-calendar/static/js/main.abd98713.chunk.js",
+    "main.js.map": "/work-shift-calendar/static/js/main.abd98713.chunk.js.map",
     "runtime-main.js": "/work-shift-calendar/static/js/runtime-main.99150c75.js",
     "runtime-main.js.map": "/work-shift-calendar/static/js/runtime-main.99150c75.js.map",
     "static/css/2.8dbe6964.chunk.css": "/work-shift-calendar/static/css/2.8dbe6964.chunk.css",
     "static/js/2.b752f7b5.chunk.js": "/work-shift-calendar/static/js/2.b752f7b5.chunk.js",
     "static/js/2.b752f7b5.chunk.js.map": "/work-shift-calendar/static/js/2.b752f7b5.chunk.js.map",
     "index.html": "/work-shift-calendar/index.html",
-    "precache-manifest.ea0b9d80ccf704e41dddcd08dce9c75c.js": "/work-shift-calendar/precache-manifest.ea0b9d80ccf704e41dddcd08dce9c75c.js",
+    "precache-manifest.f26c1be2b6d3fba218c04e8f586961cb.js": "/work-shift-calendar/precache-manifest.f26c1be2b6d3fba218c04e8f586961cb.js",
     "service-worker.js": "/work-shift-calendar/service-worker.js",
     "static/css/2.8dbe6964.chunk.css.map": "/work-shift-calendar/static/css/2.8dbe6964.chunk.css.map",
     "static/css/main.64d1f2fa.chunk.css.map": "/work-shift-calendar/static/css/main.64d1f2fa.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.8dbe6964.chunk.css",
     "static/js/2.b752f7b5.chunk.js",
     "static/css/main.64d1f2fa.chunk.css",
-    "static/js/main.b32785b1.chunk.js"
+    "static/js/main.abd98713.chunk.js"
   ]
 }
