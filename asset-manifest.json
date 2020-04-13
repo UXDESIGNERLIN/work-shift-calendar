@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/work-shift-calendar/static/css/main.64d1f2fa.chunk.css",
-    "main.js": "/work-shift-calendar/static/js/main.abd98713.chunk.js",
-    "main.js.map": "/work-shift-calendar/static/js/main.abd98713.chunk.js.map",
+    "main.css": "/work-shift-calendar/static/css/main.46db6858.chunk.css",
+    "main.js": "/work-shift-calendar/static/js/main.94bfad3e.chunk.js",
+    "main.js.map": "/work-shift-calendar/static/js/main.94bfad3e.chunk.js.map",
     "runtime-main.js": "/work-shift-calendar/static/js/runtime-main.99150c75.js",
     "runtime-main.js.map": "/work-shift-calendar/static/js/runtime-main.99150c75.js.map",
     "static/css/2.8dbe6964.chunk.css": "/work-shift-calendar/static/css/2.8dbe6964.chunk.css",
-    "static/js/2.b752f7b5.chunk.js": "/work-shift-calendar/static/js/2.b752f7b5.chunk.js",
-    "static/js/2.b752f7b5.chunk.js.map": "/work-shift-calendar/static/js/2.b752f7b5.chunk.js.map",
+    "static/js/2.25eeb44a.chunk.js": "/work-shift-calendar/static/js/2.25eeb44a.chunk.js",
+    "static/js/2.25eeb44a.chunk.js.map": "/work-shift-calendar/static/js/2.25eeb44a.chunk.js.map",
     "index.html": "/work-shift-calendar/index.html",
-    "precache-manifest.f26c1be2b6d3fba218c04e8f586961cb.js": "/work-shift-calendar/precache-manifest.f26c1be2b6d3fba218c04e8f586961cb.js",
+    "precache-manifest.b656cb54fe6c902a41dc1d5a9a5f1f3e.js": "/work-shift-calendar/precache-manifest.b656cb54fe6c902a41dc1d5a9a5f1f3e.js",
     "service-worker.js": "/work-shift-calendar/service-worker.js",
     "static/css/2.8dbe6964.chunk.css.map": "/work-shift-calendar/static/css/2.8dbe6964.chunk.css.map",
-    "static/css/main.64d1f2fa.chunk.css.map": "/work-shift-calendar/static/css/main.64d1f2fa.chunk.css.map",
-    "static/js/2.b752f7b5.chunk.js.LICENSE.txt": "/work-shift-calendar/static/js/2.b752f7b5.chunk.js.LICENSE.txt"
+    "static/css/main.46db6858.chunk.css.map": "/work-shift-calendar/static/css/main.46db6858.chunk.css.map",
+    "static/js/2.25eeb44a.chunk.js.LICENSE.txt": "/work-shift-calendar/static/js/2.25eeb44a.chunk.js.LICENSE.txt",
+    "static/media/2020_04_13_16_00_08_trim.mp4": "/work-shift-calendar/static/media/2020_04_13_16_00_08_trim.9c6ca58a.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.99150c75.js",
     "static/css/2.8dbe6964.chunk.css",
-    "static/js/2.b752f7b5.chunk.js",
-    "static/css/main.64d1f2fa.chunk.css",
-    "static/js/main.abd98713.chunk.js"
+    "static/js/2.25eeb44a.chunk.js",
+    "static/css/main.46db6858.chunk.css",
+    "static/js/main.94bfad3e.chunk.js"
   ]
 }
